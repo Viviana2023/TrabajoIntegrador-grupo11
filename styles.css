@@ -30,7 +30,8 @@
     font-size: 20px;
 }
 .fondo-nav {
-background-color: rgb(180, 244, 248);
 border-radius: 6px;
 padding:2px;
+background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
+border-top: 0;
 }
