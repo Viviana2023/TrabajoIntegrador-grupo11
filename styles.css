@@ -31,7 +31,9 @@
 }
 .fondo-nav {
 border-radius: 6px;
-padding:2px;
+padding:5px;
+flex-flow:row;
 background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
 border-top: 0;
+
 }
