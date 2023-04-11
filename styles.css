@@ -14,9 +14,6 @@
 .slideI {
     margin-top: 50px;
 }
-.imagenes{
-    margin-top: 50px;
-}
 
 /*Defino tamaño del carousel*/
 .carousel-item {
@@ -35,5 +32,52 @@ padding:5px;
 flex-flow:row;
 background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
 border-top: 0;
+}
 
+.final{
+    display: flex;
+    background: lightblue;
+    border-radius: 5px;
+    flex-direction:row;
+    align-items:flex-end;
+    padding: 5px 5px; 
+}
+
+
+.iconos-redes {
+    display: flex;
+    background: white;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.fondo {
+    width: 100%;
+    max-width: 1188px;
+    display: flex;
+    margin:0 auto;
+    padding: 0px;
+    /* background: cornflowerblue;
+    flex-direction: row;
+    flex-basis: 40%;
+    text-align: center; */
+}
+.met-pago {
+  margin:10px 0 0 0;
+  width: 210px;
+}
+footer .top-nav{
+margin-bottom: 15px;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15;
+}
+h6 {
+    margin: 20px 0 10px 0;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
 }
