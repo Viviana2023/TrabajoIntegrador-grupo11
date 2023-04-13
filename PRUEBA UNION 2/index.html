@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="./images/logo2.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
     <!--<script src="./app.js"></script>-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--tuve que vincular màs abajo el css y agregarle type="text/css" para que me modificara los estilos que había hecho en títulos-->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>BodySystem GYM</title>
 </head>
 
@@ -32,16 +33,16 @@
                             <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active " href="#">Entrená</a>
+                            <a class="nav-link active " href="#nav2">Entrená</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Tips</a>
+                            <a class="nav-link active" aria-current="page" href="#nav3">Tips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Nosotros</a>
+                            <a class="nav-link active" href="#nav4">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#nav5">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -109,15 +110,16 @@
         </div>
     </div>
 
-    <!--</second-article>-->
-    <section class="second-article">
-        <div class="container second-article">
-            <article class="row">
-                <h2 class="title my-5 display-2 text-center">Nuestras clases</h2>
-
-                <div class="row row-cols-2">
+    <!--</main-article>-->
+    <section class="main-article">
+        <div class="container main-article">
+            <article class="rowMain">
+                <class id = nav2></class>
+                <h2 class="title my-5 display-2 text-center">Entrená</h2>
+                <article class="rowMain">
+                <div class="row row-cols-md-2 d-flex">
                     <article id=clase1>
-                        <figure class="row">
+                        <figure class="rowMain">
                             <img src="./images/funcional.jpg" class="img-fluid" alt="Entrenamiento funcional">
                         </figure>
                         <div class="col">
@@ -135,7 +137,7 @@
                                 global.</p>
                     </article>
                     <article id=clase2>
-                        <figure class="row">
+                        <figure class="rowMain">
                             <img src="./images/kettlebell-3290296_1920.jpg" class="img-fluid" alt="Musculación">
                         </figure>
                         <div class="col">
@@ -149,16 +151,13 @@
                                 La zona de máquinas está equipada con máquinas de alta calidad las cuales te facilitaran
                                 la ejecución correcta de los distintos ejercicios. En la zona de pesas libres dispondrás
                                 de espacio suficiente para entrenar, además de gran variedad de mancuernas, barras,
-                                poleas, torres multifuncionales con poleas, press de banco, etc. A través del entreno
-                                tanto en máquinas como en peso libre si haces repeticiones múltiples podrás entrenar tu
-                                resistencia de fuerza, podrás aumentar la masa de tu musculatura, quemaras grasa
-                                haciendo que se puedan apreciar tus músculos.</p>
+                                poleas, torres multifuncionales con poleas, press de banco, etc. </p>
                     </article>
 
                     <div class="w-100"></div>
 
                     <article id=clase3>
-                        <figure class="row">
+                        <figure class="rowMain">
                             <img src="./images/yoga-2959226_1920.jpg" class="img-fluid" alt="Yoga">
                         </figure>
                         <div class="col">
@@ -170,7 +169,7 @@
                                 o para reducir el estrés.</p>
                     </article>
                     <article id=clase4>
-                        <figure class="row">
+                        <figure class="rowMain">
                             <img src="./images/pilates.jpg" class="img-fluid" alt="Pilates">
                         </figure>
                         <div class="col">
@@ -179,19 +178,87 @@
                                 por Joseph Hubertus Pilates. Tiene como objetivo fortalecer el cuerpo y la mente desde
                                 la parte más profunda a la más superficial, aumentando y uniendo el dinamismo y la fuera
                                 muscular con el control mental, la relajación y la respiración. Es una disciplina que
-                                combina técnicas de gimnasia, ballet y yoga. Está inspirado en criterios médicos
-                                relacionados a la traumatología y la rehabilitación, ya que Joseph Hubertus diseño la
-                                diseñó para solucionar problemas físicos que lo afectaban desde su infancia.
-                                Algunos de los beneficios de realizar este entrenamiento son: Mejora la postura
-                                corporal,Flexibilidad muscular, Mejora la respiración, Ayuda a combatir el estrés,
-                                Moldea la figura, Entrenamiento sin lesiones.</p>
+                                combina técnicas de gimnasia, ballet y yoga. </p>
                     </article>
                 </div>
                 <div class="alert alert-success text-center" role="alert">
-                    Elegí la que más te guste y te regalamos una clase de prueba!
+                    Elegí la clase que más te guste y te regalamos una de prueba!
                 </div>
-                <section class="Tips">
-                    <!--Sección correspondiente a Cristian con los Tips-->
+        </div>
+    </section>
+
+<!--</Tips>-->
+    <section class="Tips">
+        <class id = nav3></class>
+        <div class="container Tips">
+        <article class="row">
+          <h2 class="title my-5 display-2 text-center">Tips</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/water-3853492_1280.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hidratate</h5>
+                  <p class="card-text">Tomá a diario 8 vasos de agua segura.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/fruit.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Comé variado</h5>
+                  <p class="card-text">Consumí a diario 5 porciones de frutas y verduras en variedad de tipos y colores</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/spices.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jugá con los condimentos</h5>
+                  <p class="card-text">Reducí el uso de sal y el consumo de alimentos con alto contenido de sodio</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/milk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Decile sí a los lácteos</h5>
+                  <p class="card-text">Consumir diariamente leche, yogur o queso, preferentemente descremados</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="./images/cereal.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Incorporá cereales, frutos secos y legumbres</h5>
+                    <p class="card-text">Consumir legumbres, cereales preferentemente integrales, papa, batata, choclo o mandioca</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./images/salmon.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Menos carne roja</h5>
+                    <p class="card-text">Al consumir carnes quitarle la grasa visible, aumentar el consumo de pescado e incluir huevo</p>
+                  </div>
+                </div>
+              </div>
+          </div>  
+    </section>
+                
+    
+    <!--</Nosotros>-->
+    <section class="Nosotros">
+        <class id = nav4></class>
+        <div class="container Nosotros">
+        <article class="row">
+          <h2 class="title my-5 display-2 text-center">Nosotros</h2>
+        <!-- Sección correspondiente a Efrain sobre Nosotros-->
                     <br>
                     <hr>
                     <br>
@@ -200,25 +267,13 @@
                     <br>
                     <br>
                     <br>
-                    <br>
-                    <br>
-                    <br>
-                </section>
-                <section class="sobre_nosotros">
-                    <!-- Sección correspondiente a Efran sobre Nosotros-->
-                    <br>
-                    <hr>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </section>
-                <section class="contacto">
+ <!--</Contacto>-->
+ <section class="Contacto">
+    <class id = nav5></class>
+    <div class="container Contacto">
+    <article class="row">
+      <h2 class="title my-5 display-2 text-center">Contacto</h2>
+
 
                 </section>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
