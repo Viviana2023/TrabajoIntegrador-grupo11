@@ -61,10 +61,10 @@ border-radius: 15px;
       flex-basis: 40%;
       text-align: center; */
   }
-  .met-pago {
+  /* .met-pago {
     margin:10px 0 0 0;
-    width: 210px;
-  }
+    
+  } */
   footer .top-nav{
   margin-bottom: 15px;
   }
@@ -83,6 +83,63 @@ border-radius: 15px;
 footer {
   border-color: blue;
 }
-.imagenes {
-  margin-top: 10px;
+/* #contacto {
+  border-color: darkblue;
+  border: solid darkblue;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
+} */
+
+*{box-sizing: border-box;}
+
+form {
+  width:auto;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+form input[type="text"], [type="email"], [type="tel"], [type="consulta"]{
+  width:300px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
 }

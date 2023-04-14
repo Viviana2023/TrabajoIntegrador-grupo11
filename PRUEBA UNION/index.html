@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./images/logo2.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
     <!--<script src="./app.js"></script>-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -41,7 +41,7 @@
                             <a class="nav-link active" href="#">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -56,59 +56,55 @@
                 <i class="fa-brands fa-linkedin fa-xl"></i></a>
         </div>
 
-        <main class="imagenes">
-            <div id="carouselExampleControls" class="carousel slide mb-5 d-flex" data-bs-ride="carousel"
-                data-bs-pause="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="./images/exercise-g0269f79df_640.jpg" class="d-block w-100" alt="persona con pesa">
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Entrenamiento</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./images/kettlebell-g580e0afde_640.jpg" class="d-block w-100" alt="Mujeres joga">
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Adaptado a tu estilo</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="./images/gym-ge673044f9_640.jpg" class="d-block w-100" alt="Gimansio">
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Ambiente ideal</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/fitness-g41bca747e_640.jpg" class="d-block w-100"
-                            alt="pesas, comida y centímetro">
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Tips: consejos nutricionales</h5>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+        <div id="carouselExampleControls" class="carousel slide mb-5 d-flex" data-bs-ride="carousel"
+            data-bs-pause="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
             </div>
-
-        </main>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./images/exercise-g0269f79df_640.jpg" class="d-block w-100" alt="persona con pesa">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Entrenamiento</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./images/kettlebell-g580e0afde_640.jpg" class="d-block w-100" alt="Mujeres joga">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Adaptado a tu estilo</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./images/gym-ge673044f9_640.jpg" class="d-block w-100" alt="Gimansio">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Ambiente ideal</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/fitness-g41bca747e_640.jpg" class="d-block w-100" alt="pesas comida centímetro">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Tips: consejos nutricionales</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <!--</second-article>-->
         <section class="second-article">
             <div class="container second-article">
@@ -170,7 +166,6 @@
                         </article>
 
                         <div class="w-100"></div>
-
                         <article id=clase3>
                             <figure class="row">
                                 <img src="./images/yoga-2959226_1920.jpg" class="img-fluid" alt="Yoga">
@@ -300,29 +295,7 @@
                                         <br>
                                         <br>
                                     </section>
-                                    <section class="contacto">
-                                        <form>
-                                            <label for="nombre">Nombre:</label>
-                                            <input type="text" name="nombre" id="nombre">
-                                            <br>
-                                            <br>
-                                            <label for="apellido">Apellido:</label>
-                                            <input type="text" name="apellido" id="apellido">
-                                            <br>
-                                            <br>
-                                            <laber for="telefono">Teléfono:</laber>
-                                            <input type="tel" name="telefono" id="telefono">
-                                            <br>
-                                            <br>
-                                            <label for="consulta">Consulta:</label>
-                                            <input type="textarea" name="consulta" id="consulta">
-                                            <br>
-                                            <br>
-                                            <label for="correo">Email: </label>
-                                            <input type="email" name="correo" id="correo">
 
-                                        </form>
-                                    </section>
                                     <script
                                         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
                                         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -331,8 +304,40 @@
                                         crossorigin="anonymous"></script>
                             </div>
             </div>
+            <div id="contacto">
+                <br>
+                <h2 class="title my-5 display-2 text-center">Contacto</h2>
+                <form class="d-flex">
+                    <fieldset>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <br>
+                        <br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" id="apellido">
+                        <br>
+                        <br>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" name="telefono" id="telefono">
+                        <br>
+                        <br>
+
+                        <label for="consulta">Consulta:</label>
+                        <textarea name="consulta" id="consulta" cols="40" rows="6"
+                            placeholder="Escribe tu consulta y te responderemos a la brevedad"></textarea>
+                        <br>
+                        <br>
+                        <label for="correo">Email: </label>
+                        <input type="email" name="correo" id="correo">
+                        <input type="submit" value="enviar">
+                </form>
+                </fieldset>
+            </div>
 </body>
 <footer>
+    <br>
+    <br>
+    <br>
     <div class="fondo">
         <div class="col-sm-3 ">
 
@@ -340,7 +345,7 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-3 row top-nav">
             <h6>Pago online 100% segura</h6><br>
-            <img src="./images/ar-pm-footer.png" alt="" class="met-pago">
+            <img src="./images/ar-pm-footer.png" width="20" alt="tarjetas">
         </div>
         <div class="col-sm-3 row top-nav">
 
