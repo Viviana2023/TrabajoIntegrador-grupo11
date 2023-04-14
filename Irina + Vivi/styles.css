@@ -71,9 +71,9 @@ border-radius: 15px;
     margin:10px 0 0 0;
     width: 210px;
   }
-  footer .top-nav{
+ /* footer .top-nav{
   margin-bottom: 15px;
-  }
+  }*/
   .row {
       display:flex;
       flex-wrap: wrap;
@@ -98,4 +98,22 @@ border-radius: 15px;
 .tips {
   display:flex;
   flex-wrap: wrap;
+}
+
+.footer{
+  display: flex;
+  background-color: rgb(96, 247, 211);
+  margin-top: auto;
+  padding-top: 1%;
+}
+
+.last{
+  display: flex;
+  background-color: blue; 
+  color:antiquewhite;
+}
+
+.credits{
+  display:flex;
+  justify-content: center;
 }
