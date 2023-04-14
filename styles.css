@@ -119,7 +119,8 @@ border-radius: 15px;
 }
 
 /* ------------------------------ */
-/* esto aplica a la seccion Acerca de nosotros */
+/* desde aca aplica a la seccion "Nosotros" */
+
 #capa1 {
   display: flex;
   text-align: center;
@@ -137,9 +138,8 @@ ul {
 
 }
 
-li {
+li{
   text-align: left;
-  box: shadow 16px;
 }
 
  /* aplica a los articulos */
@@ -171,7 +171,7 @@ li {
   margin-top: 10px;
 }
 
-img {
+.img2{
   float: right;
   margin-left: 10px;
   margin-top: auto;
