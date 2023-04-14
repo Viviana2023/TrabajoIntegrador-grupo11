@@ -99,3 +99,73 @@ border-radius: 15px;
   display:flex;
   flex-wrap: wrap;
 }
+
+/* ------------------------------ */
+/* esto aplica a la seccion Acerca de nosotros */
+#capa1 {
+  display: flex;
+  text-align: center;
+  width: 90%;
+  position: top;
+  top: 85px;
+  left: 10px;
+  bottom: 30px;
+  font-size: 14;
+  padding: 25px;
+}
+
+ul {
+  list-style-type: square;
+
+}
+
+li {
+  text-align: left;
+  box: shadow 16px;
+}
+
+ /* aplica a los articulos */
+#art1 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 2;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+#art2 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 1;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+
+}
+
+#art3 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 1;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+img {
+  float: right;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+#address {
+  display: flex;
+  background-color: #3a3a3d;
+  color: #95d5e0;
+  font-size: small;
+}
+/* una vez comprobado que todo queda bien, se puede eliminar*/
+/* los archivos estilos.css y el html Quienessomos /*
