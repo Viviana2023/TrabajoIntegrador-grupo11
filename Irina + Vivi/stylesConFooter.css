@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lilita+One&family=Lobster&family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.alert{
+  text-decoration-color: rgb(75, 6, 23); font-weight: bold; font-size: x-large;
+}
+
+.figure{
+  display:flex;
+  flex-direction: row;
+
+}
+
+.title{
+  font-weight:bolder; color: rgb(110, 133, 124);
+}
+
+.isoTipo {
+  /*font-family: 'Scada', sans-serif;*/
+  font-family: 'Lobster', cursive;
+  /*font-family: 'Lilita One', cursive;*/
+} 
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.504);
+border-radius: 15px;
+}
+.slideI {
+  margin-top: 50px;
+}
+
+/*Defino tamaño del carousel*/
+.carousel-item {
+  padding:5px;
+  flex-flow:row;
+  }
+  .fondo-nav{
+    background: linear-gradient(rgb(172, 215, 237), rgb(96, 247, 211));
+    border-top: 0;
+    border-radius: 5px;
+  }
+  .final{
+      display: flex;
+      background: lightblue;
+      border-radius: 5px;
+      flex-direction:row;
+      align-items:flex-end;
+      padding: 5px 5px; 
+  } 
+  
+  .iconos-redes {
+      display: flex;
+      background: white;
+      flex-direction: row;
+      align-items: flex-end;
+  }
+  .fondo {
+      width: 100%;
+      max-width: 1188px;
+      display: flex;
+      margin:0 auto;
+      padding: 0px;
+      /* background: cornflowerblue;
+      flex-direction: row;
+      flex-basis: 40%;
+      text-align: center; */
+  }
+  .met-pago {
+    margin:10px 0 0 0;
+    width: 210px;
+  }
+ /* footer .top-nav{
+  margin-bottom: 15px;
+  }*/
+  .row {
+      display:flex;
+      flex-wrap: wrap;
+      margin-right: -15;
+  }
+  h6 {
+      margin: 20px 0 10px 0;
+      display:block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-end: 0px;
+      margin-inline-start: 0px;
+  }
+
+.main-article {
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.tips {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.footer{
+  display: flex;
+  background-color: rgb(96, 247, 211);
+  margin-top: auto;
+  padding-top: 1%;
+}
+
+.last{
+  display: flex;
+  background-color: blue; 
+  color:antiquewhite;
+}
+
+.credits{
+  display:flex;
+  justify-content: center;
+}
