@@ -175,15 +175,10 @@ li {
 
 img {
   float: right;
-  margin-left: 10px;
+  margin-left: 3px;
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 10px;
+  margin-right: 3px;
 }
 
-#address {
-  display: flex;
-  background-color: #3a3a3d;
-  color: #95d5e0;
-  font-size: small;
-}
+
