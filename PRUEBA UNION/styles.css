@@ -171,3 +171,14 @@ textarea{
 	resize:none;
 	display:block;
 }
+.main-article {
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.tips {
+  display:flex;
+  flex-wrap: wrap;
+}
