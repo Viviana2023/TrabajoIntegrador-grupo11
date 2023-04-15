@@ -117,3 +117,68 @@ border-radius: 15px;
   display:flex;
   justify-content: center;
 }
+
+
+/* ------------------------------ */
+/* desde aca aplica a la seccion "Nosotros" */
+
+#capa1 {
+  display: flex;
+  text-align: center;
+  width: 90%;
+  position: top;
+  top: 85px;
+  left: 10px;
+  bottom: 30px;
+  font-size: 14;
+  padding: 25px;
+}
+
+ul {
+  list-style-type: square;
+
+}
+
+li {
+  text-align: left;
+  box: shadow 16px;
+}
+
+ /* aplica a los articulos */
+#art1 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 2;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+#art2 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 1;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+
+}
+
+#art3 {
+  text-align: left;
+  flex-basis: 50px;
+  flex-grow: 1;
+  background-color: #eaf8f2;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+img {
+  float: right;
+  margin-left: 3px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3px;
+}
+
+
