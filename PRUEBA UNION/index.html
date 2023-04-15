@@ -16,7 +16,7 @@
 
 <body>
     <div id="inicio" class="container">
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
             <div class="container-fluid fondo-nav">
                 <!--<a class="navbar-brand" href="#">-->
                 <img src="./images/logo2.jpg" width="70" alt="Logo" class="me-2"><!--</a>-->
@@ -31,16 +31,16 @@
                             <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active " href="#">Entrená</a>
+                            <a class="nav-link active " href="#nav2">Entrená</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Tips</a>
+                            <a class="nav-link active" aria-current="page" href="#nav3">Tips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Nosotros</a>
+                            <a class="nav-link active" href="#nav4">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -280,92 +280,191 @@
         <div class="container Nosotros">
             <article class="row">
                 <h2 class="title my-5 display-2 text-center">Nosotros</h2>
-                <section class="sobre_nosotros">
-                    <!-- Sección correspondiente a Efran sobre Nosotros-->
-                    <br>
-                    <hr>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </section>
-            </article>
-        </div>
-        <div id="contacto">
-            <br>
-            <h2 class="title my-5 display-2 text-center">Contacto</h2>
-            <form id="formulario" class="d-flex">
-                <fieldset>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                    <br>
-                    <br>
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido">
-                    <br>
-                    <br>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" name="telefono" id="telefono">
-                    <br>
-                    <br>
+                <!-- <nav class="navbar  class=menu align-content-sm-center"><img src="./images/acerca-nosotros.jpg"
+                        height="60">
+                    <a href="#art1">
+                        <h6> <button>Historia</button></h6>
+                    </a>&nbsp;<a href="#art2">
+                        <h6><button>Objetivos</button></h6>
+                    </a>&nbsp;<a href="#art3">
+                        <h6><button>Valores </button></h6>
+                    </a>
+                </nav> -->
+                <div class="capa1 py-2 px-4">
+                    <article id="art1">
+                        <h3>Historia</h3><img src="./images/maquinas-gym.jpg" class=img2 height="150" width="150"
+                            title="Nuestra Historia empezo aqui">
+                        <p>
+                        <ul>
+                            <li>
+                                <quote>
+                                    10 Años de experiencia nos avalan. Nos preocupamos porque nuestros
+                                    clientes puedan acceder a una
+                                    experiencia saludable utilizando los mejores equipos Fitness y
+                                    garantizando siempre el mejor precio del
+                                    mercado.
+                            </li>
+                            <li>Enfocados en nuestros clientes
+                                Operamos en relación directa con los importadores sin intermediarios, así
+                                podemos ofrecerte productos a
+                                precio de fábrica, con garantías oficiales, para que sigas confiando en
+                                nosotros.</li>
+                            <li>Todos nuestros productos cuentan con garantía de 1 año, cubriendo todas
+                                aquellas necesidades del usuario,
+                                y solucionando cualquier inconveniente con su equipo, para que pueda seguir
+                                entrenando de forma habitual.
+                                </quote>
+                                </p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="capa1 py-2 px-4">
+                    <article id="art2">
+                        <h3>Objetivos</h3><img src="./images/targets-goals.jpg" class=img2 height="170" width="150"
+                            title="LOGROS!!">
+                        <ul>
+                            <li> Estamos comprometidos a ofrecer nuestra mejor atencion profesional y una
+                                excelente experiencia a cada uno
+                                de nuestros clientes</li>
 
-                    <label for="consulta">Consulta:</label>
-                    <textarea name="consulta" id="consulta" cols="20" rows="6"
-                        placeholder="Escribe tu consulta y te responderemos a la brevedad"></textarea>
-                    <br>
-                    <label for="correo">Email: </label>
-                    <input type="email" name="correo" id="correo">
-                    <div class="justify-content-center d-flex">
-                        <div class="space"></div>
-                        <button type="submit" id="submit" onclick="generarPDF(event)">Descargar PDF</button>
-                    </div>
-            </form>
-            </fieldset>
-        </div>
-        <div>
-            <iframe id="frame" src="" frameborder="0"></iframe>
-        </div>
-        <!-- </div>-->
+                            <li>Queremos ser parte de tu salud integral y ofrecer un establecimiento
+                                recreacional a todas las personas que
+                                deseen ejercitarse en un ambiente común con la ayuda de nuestros
+                                profesionales que te orientaran a la hora
+                                de mejorar y mantener tu condición física. Cuidar tu salud para mantenerte
+                                en forma y ayudarte a perder esos
+                                “kilos de más” </li>
+                            <li>El desarrollo físico específico del deporte mejora la fuerza absoluta y la
+                                relativa, la masa muscular y la
+                                elasticidad, la fuerza específica (potencia o resistencia muscular) de
+                                acuerdo con los requerimientos del
+                                deporte, los movimientos y el tiempo de reacción, la coordinación y la
+                                flexibilidad. Este tipo de
+                                entrenamiento desarrolla la habilidad para ejecutar con facilidad y suavidad
+                                todos los movimientos</li>
+                        </ul>
+                        <p></p>
+                    </article>
+                </div>
+                <div class="capa1 py-2 px-4">
+                    <article id="art3">
+                        <h3>Valores</h3><img src="./images/valores_empresa.jpg" class=img2 height="170" width="150"
+                            title="JUNTOS MAS LEJOS">
+                        <p>
+                        <ul>La concepción del deporte no
+                            ha sido la misma en el devenir de los tiempos, de modo que, en cada época, la
+                            jerarquía e interpretación de
+                            los valores no han
+                            sido las mismas siempre, resaltándose unos
+                            sobre otros y considerando como positivos
+                            ciertos valores que en otros tiempos han
+                            sido considerados como inaceptables<li>Los valores no son simplemente palabras,
+                                los valores son por lo que
+                                vivimos. Son las causas por las que defendemos y por lo que lucha la gente
+                            </li>
+                            <li>Por encima del talento están los valores comunes: disciplina, amor, buena
+                                suerte, pero sobre todo
+                                tenacidad</li>
+                        </ul>&nbsp;<p align="center">&nbsp;</p>
+                        </p>
+                        <marquee widht="65%"> <tt> Realizado por grupo 11: I.Agretti, V.Lopez, E.Neri,
+                                C.Tissera - Argentina Programa - Abril 2023</tt> </marquee>
+                    </article>
+                    <p></p>
+    </section>
+    </div>
+    </article>
+    </div>
+    <div id="contacto">
+        <br>
+        <h2 class="title my-5 display-2 text-center">Contacto</h2>
+        <form id="formulario" class="d-flex">
+            <fieldset>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+                <br>
+                <br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono">
+                <br>
+                <br>
+
+                <label for="consulta">Consulta:</label>
+                <textarea name="consulta" id="consulta" cols="20" rows="6"
+                    placeholder="Escribe tu consulta y te responderemos a la brevedad"></textarea>
+                <br>
+                <label for="correo">Email: </label>
+                <input type="email" name="correo" id="correo">
+                <div class="justify-content-center d-flex">
+                    <div class="space"></div>
+                    <button type="submit" id="submit" onclick="generarPDF(event)">Descargar PDF</button>
+                </div>
+        </form>
+        </fieldset>
+    </div>
+    <div>
+        <iframe id="frame" src="" frameborder="0"></iframe>
+    </div>
+    <!-- </div>-->
     </section>
 </body>
+
 <footer>
-    <br>
-    <br>
-    <br>
-    <div class="fondo">
-        <div class="col-sm-3 ">
+    <div class="container footer">
+        <div class="card-group">
+            <div class="card" style="max-width:540px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/logo2.jpg" class="img-fluid rounded-start" alt="logo BodySystem">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Body System</h5>
+                            <ul>
+                                <li>Dirección: Lorem ipsum </li>
+                                <li>Teléfono</li>
+                                <li>Mail</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col-sm-6 row top-nav">
+                    <h6>Pago online 100% segura</h6><br>
+                    <img src="./images/ar-pm-footer.png" class="met-pago" alt="métodos de pago">
+                    <!-- </div>
+                <div class="col-sm- row card-body"> -->
+                    <h5 class="card-title">ASOCIATE</h5>
+                    <p class="card-text">Empezá hoy mismo a entrenar</p>
+                </div>
+            </div>
+            <div class="container last">
+                <h6 class="">Propiedad exclusiva: <b>BodySystem</b> - Diseño: Grupo 11, Argentina Programa</h6>
+            </div>
+        </div>
 
-        </div>
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3 row top-nav">
-            <h6>Pago online 100% segura</h6><br>
-            <img src="./images/ar-pm-footer.png" width="20" alt="tarjetas">
-        </div>
-        <div class="col-sm-3 row top-nav">
-
-        </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/76c9ca720a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
-        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
-        crossorigin="anonymous"></script>
-    <script src="./jquery-3.6.4.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
-
-
-
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/76c9ca720a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./styles.css">
+<script src="./index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+    integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+    crossorigin="anonymous"></script>
+<script src="./jquery-3.6.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+
+
+
+
 
 <div class="d-flex justify-content-center text-bg-light">
     Referencia imágenes <a
