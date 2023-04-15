@@ -17,10 +17,15 @@
   flex-direction: row;
 
 }
-
+/*
 .title{
-  font-weight:bolder; text-decoration-color: rgb(133, 21, 21);
+  font-weight:bolder; color: rgb(110, 133, 124);
 }
+*/
+.title{
+  font-weight:bolder; color: rgb(110, 133, 124);
+}
+
 .isoTipo {
   /*font-family: 'Scada', sans-serif;*/
   font-family: 'Lobster', cursive;
