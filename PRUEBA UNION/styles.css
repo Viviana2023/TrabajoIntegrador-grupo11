@@ -91,9 +91,9 @@ border-radius: 15px;
     vertical-align: middle;
     border-style: none;
   }
-footer .top-nav{
+/*footer .top-nav{
   margin-bottom: 15px;
-  }
+  }*/
   .row {
       display:flex;
       
@@ -244,3 +244,20 @@ textarea{
 
 
 
+.footer{
+  display: flex;
+  background-color: rgb(96, 247, 211);
+  margin-top: auto;
+  padding-top: 1%;
+}
+
+.last{
+  display: flex;
+  background-color: blue; 
+  color:antiquewhite;
+}
+
+.credits{
+  display:flex;
+  justify-content: center;
+}
