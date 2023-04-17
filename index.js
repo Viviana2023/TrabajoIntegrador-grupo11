@@ -29,4 +29,11 @@ function generarPDF(event) {
     doc.text(corr, 30, 50);
     doc.save('formulario.pdf');
     }
+    function enviar(event){
+        event.preventDefault();
+        alert("Su consulta se ha enviado...");
+        let formulario = document.getElementById('formulario');
+        formulario.reset();
+        }
     
+       
